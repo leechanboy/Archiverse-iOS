@@ -1,3 +1,3 @@
 # Archiverse-iOS
-Archiverse iOS Port with new feature
+Archiverse iOS Port with new features
 Made by Codex
