@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000000000000000000040 /* ArchiverseMiiverseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000020 /* ArchiverseMiiverseApp.swift */; };
+		A10000000000000000000041 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000021 /* ContentView.swift */; };
+		A10000000000000000000042 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000022 /* Models.swift */; };
+		A10000000000000000000043 /* ArchiverseAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000023 /* ArchiverseAPI.swift */; };
+		A10000000000000000000044 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000024 /* Theme.swift */; };
+		A10000000000000000000045 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000025 /* HomeView.swift */; };
+		A10000000000000000000046 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000026 /* SearchView.swift */; };
+		A10000000000000000000047 /* PostDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000027 /* PostDetailView.swift */; };
+		A10000000000000000000048 /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000028 /* UserProfileView.swift */; };
+		A10000000000000000000049 /* CommunityDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000029 /* CommunityDetailView.swift */; };
+		A1000000000000000000004A /* RemoteImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000002A /* RemoteImageView.swift */; };
+		A1000000000000000000004C /* archiverse-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000002C /* archiverse-logo.png */; };
+		A1000000000000000000004D /* welcome-image.png in Resources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000002D /* welcome-image.png */; };
+		A1000000000000000000004E /* ArchiveUnlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000002E /* ArchiveUnlockView.swift */; };
+		A1000000000000000000004F /* OpeningSplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000030 /* OpeningSplashView.swift */; };
+		A10000000000000000000050 /* miiverse-opening-theme.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000031 /* miiverse-opening-theme.mp3 */; };
+		A10000000000000000000051 /* miiverse-opening-reference.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000032 /* miiverse-opening-reference.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A1000000000000000000000B /* ArchiverseMiiverse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArchiverseMiiverse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10000000000000000000020 /* ArchiverseMiiverseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiverseMiiverseApp.swift; sourceTree = "<group>"; };
+		A10000000000000000000021 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A10000000000000000000022 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		A10000000000000000000023 /* ArchiverseAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiverseAPI.swift; sourceTree = "<group>"; };
+		A10000000000000000000024 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		A10000000000000000000025 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A10000000000000000000026 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		A10000000000000000000027 /* PostDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailView.swift; sourceTree = "<group>"; };
+		A10000000000000000000028 /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
+		A10000000000000000000029 /* CommunityDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityDetailView.swift; sourceTree = "<group>"; };
+		A1000000000000000000002A /* RemoteImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImageView.swift; sourceTree = "<group>"; };
+		A1000000000000000000002C /* archiverse-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "archiverse-logo.png"; sourceTree = "<group>"; };
+		A1000000000000000000002D /* welcome-image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "welcome-image.png"; sourceTree = "<group>"; };
+		A1000000000000000000002E /* ArchiveUnlockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveUnlockView.swift; sourceTree = "<group>"; };
+		A10000000000000000000030 /* OpeningSplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeningSplashView.swift; sourceTree = "<group>"; };
+		A10000000000000000000031 /* miiverse-opening-theme.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "miiverse-opening-theme.mp3"; sourceTree = "<group>"; };
+		A10000000000000000000032 /* miiverse-opening-reference.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "miiverse-opening-reference.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A10000000000000000000009 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A10000000000000000000003 = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000005 /* ArchiverseMiiverse */,
+				A10000000000000000000004 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A10000000000000000000004 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1000000000000000000000B /* ArchiverseMiiverse.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A10000000000000000000005 /* ArchiverseMiiverse */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000020 /* ArchiverseMiiverseApp.swift */,
+				A10000000000000000000021 /* ContentView.swift */,
+				A10000000000000000000022 /* Models.swift */,
+				A10000000000000000000023 /* ArchiverseAPI.swift */,
+				A10000000000000000000024 /* Theme.swift */,
+				A10000000000000000000025 /* HomeView.swift */,
+				A10000000000000000000026 /* SearchView.swift */,
+				A10000000000000000000027 /* PostDetailView.swift */,
+				A10000000000000000000028 /* UserProfileView.swift */,
+				A10000000000000000000029 /* CommunityDetailView.swift */,
+				A1000000000000000000002A /* RemoteImageView.swift */,
+				A1000000000000000000002E /* ArchiveUnlockView.swift */,
+				A10000000000000000000030 /* OpeningSplashView.swift */,
+				A10000000000000000000006 /* Resources */,
+			);
+			path = ArchiverseMiiverse;
+			sourceTree = "<group>";
+		};
+		A10000000000000000000006 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A1000000000000000000002C /* archiverse-logo.png */,
+				A1000000000000000000002D /* welcome-image.png */,
+				A10000000000000000000031 /* miiverse-opening-theme.mp3 */,
+				A10000000000000000000032 /* miiverse-opening-reference.jpg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1000000000000000000000A /* ArchiverseMiiverse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1000000000000000000000D /* Build configuration list for PBXNativeTarget "ArchiverseMiiverse" */;
+			buildPhases = (
+				A10000000000000000000007 /* Sources */,
+				A10000000000000000000009 /* Frameworks */,
+				A10000000000000000000008 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArchiverseMiiverse;
+			productName = ArchiverseMiiverse;
+			productReference = A1000000000000000000000B /* ArchiverseMiiverse.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A10000000000000000000002 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 2640;
+				LastUpgradeCheck = 2640;
+				TargetAttributes = {
+					A1000000000000000000000A = {
+						CreatedOnToolsVersion = 26.4.1;
+					};
+				};
+			};
+			buildConfigurationList = A1000000000000000000000C /* Build configuration list for PBXProject "ArchiverseMiiverse" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A10000000000000000000003;
+			productRefGroup = A10000000000000000000004 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1000000000000000000000A /* ArchiverseMiiverse */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A10000000000000000000008 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000000000000000000004C /* archiverse-logo.png in Resources */,
+				A1000000000000000000004D /* welcome-image.png in Resources */,
+				A10000000000000000000050 /* miiverse-opening-theme.mp3 in Resources */,
+				A10000000000000000000051 /* miiverse-opening-reference.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A10000000000000000000007 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000040 /* ArchiverseMiiverseApp.swift in Sources */,
+				A10000000000000000000041 /* ContentView.swift in Sources */,
+				A10000000000000000000042 /* Models.swift in Sources */,
+				A10000000000000000000043 /* ArchiverseAPI.swift in Sources */,
+				A10000000000000000000044 /* Theme.swift in Sources */,
+				A10000000000000000000045 /* HomeView.swift in Sources */,
+				A10000000000000000000046 /* SearchView.swift in Sources */,
+				A10000000000000000000047 /* PostDetailView.swift in Sources */,
+				A10000000000000000000048 /* UserProfileView.swift in Sources */,
+				A10000000000000000000049 /* CommunityDetailView.swift in Sources */,
+				A1000000000000000000004A /* RemoteImageView.swift in Sources */,
+				A1000000000000000000004E /* ArchiveUnlockView.swift in Sources */,
+				A1000000000000000000004F /* OpeningSplashView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A1000000000000000000000E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+			};
+			name = Debug;
+		};
+		A1000000000000000000000F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A10000000000000000000010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 9LA76VDS6D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Archiverse;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = network.pretendo.archiversemiiverse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A10000000000000000000011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 9LA76VDS6D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Archiverse;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = network.pretendo.archiversemiiverse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1000000000000000000000C /* Build configuration list for PBXProject "ArchiverseMiiverse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1000000000000000000000E /* Debug */,
+				A1000000000000000000000F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1000000000000000000000D /* Build configuration list for PBXNativeTarget "ArchiverseMiiverse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10000000000000000000010 /* Debug */,
+				A10000000000000000000011 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A10000000000000000000002 /* Project object */;
+}
