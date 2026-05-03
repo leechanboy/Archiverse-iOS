@@ -3,9 +3,9 @@ An iOS Port of Archiverse with new features
 Made by Codex
 # Features
 -Opening splash screen
--Post saving
--Post sharing
--External display support
+/n-Post saving
+/n-Post sharing
+/n-External display support
 # Screenshots
 <img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-05-02 at 22 07 50" src="https://github.com/user-attachments/assets/42cf59b4-81e0-4e62-bc0b-79677bce0b32" />
 <img width="1260" height="2736" alt="Simulator Screenshot - iPhone Air - 2026-05-02 at 21 59 42" src="https://github.com/user-attachments/assets/772f0f8d-74f9-47b5-a620-b03fcb1068eb" />
