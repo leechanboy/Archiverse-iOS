@@ -1,6 +1,7 @@
 # Archiverse-iOS
 An iOS Port of Archiverse with new features
-Made by Codex
+
+**Made by Codex**
 # Features
 -Opening splash screen
 
